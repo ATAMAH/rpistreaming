@@ -32,6 +32,7 @@
             ws.onmessage = (event) => {
                 try {
                     // we creating blob then image from recieved binary data
+                    // actually I just copied this from some SO answer and it worked
                     var arrayBufferView = new Uint8Array(event.data);
                     var blob = new Blob([ arrayBufferView ], { type: "image/jpeg" });
                     var urlCreator = window.URL || window.webkitURL;
