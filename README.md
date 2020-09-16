@@ -5,7 +5,7 @@ This demo using stdout of raspivid and sends raw JPEG images to webpage in binar
 ### Quick start
 
 ```sh
-$ wget https://github.com/ATAMAH/rpistreaming/archive/master.zip -o rpimjpeg.zip
+$ curl -o rpimjpeg.zip https://github.com/ATAMAH/rpistreaming/archive/master.zip
 $ unzip rpimjpeg.zip -d rpimjpeg
 $ cd rpimjpeg
 $ npm install
