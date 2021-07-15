@@ -25,6 +25,6 @@
     "method-override": "^3.0.0",
     "morgan": "^1.10.0",
     "pi-camera-connect": "^0.3.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   }
 }
