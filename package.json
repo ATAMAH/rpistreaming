@@ -21,7 +21,7 @@
   "homepage": "https://github.com/ATAMAH/rpistreaming#readme",
   "dependencies": {
     "errorhandler": "^1.5.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "method-override": "^3.0.0",
     "morgan": "^1.10.0",
     "pi-camera-connect": "^0.3.0",
