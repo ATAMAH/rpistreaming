@@ -46,6 +46,9 @@
                         if (ctx.canvas.height != img.height) { ctx.canvas.height = img.height; }
 
                         ctx.drawImage(img, 0, 0);
+
+                        urlCreator.revokeObjectURL(img.src);
+                        img = null;
                     };
                 }
                 catch (e) { }
